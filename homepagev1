@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+
+<html> 
+    <head>
+        <title>BRANDON'S WEBSITE</title>
+    </head>
+
+<body>
+     <h1><center>THE  MEME MUSEUM</center></h1>
+     <p1>This website is dedicated to the glorious artform known as "memes". Revel in the depth and abstraction of this medium.</p1>
+     <p2>Memes have been around for </p>
+     <p> You will find a plethora of sacred knowledge has been imbued within the pages of this site. Such material must not be misued, and treated with the utmost respect.</p>
+    
+    <div class="image-div">
+        <img 
+            src="boolin.jpg"  title="The GOAT">
+</div>
+    <img
+        src="see.jpg" title="SEE ME">
+        <style> 
+        </style>
+    <center><p3><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank" >Click here for something that will change your life.</a></p3></center>
+    </body>
+ <style>
+            body{
+                background-image: url("ainsley.jpg");
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center;
+                background-size: cover;
+            }
+            h1{
+                border-style:solid;
+                border-width: 5px;
+                border-color: gold;
+                background-color: #00ff00;
+                box-shadow: 10px 5px 5px gold;
+                border-radius: 10px;
+                padding: 5px;
+            }
+            p1{
+                color: brown;
+                font-family: Helvetica, sans-serif;
+                border-style:solid;
+                border-width: 10px;
+                border-color: aquamarine;
+                border-radius: 10px;
+                padding: 5px;
+            }
+            .image-div 
+             {
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                top: 50%;
+                left: 0;
+                animation: slide 6s linear infinite alternate; /* Apply the animation */
+            }
+            img {
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                top: 80%;
+                left: 0;
+                animation: slide 6s linear infinite alternate; /* Apply the animation */
+            }
+              /* Define the animation keyframes */
+              @keyframes slide {
+                0% {
+                  left: 0;
+             }
+                100% {
+                  left: calc(100% - 300px); /* Slide to the right edge of the page */
+                }
+            }
+            p3{ 
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                color:red;
+                font-size: large;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                background-color: pink;
+                border-style:solid;
+                border-width: 5px;
+                border-color: red;
+                border-radius: 10px;
+                padding: 5px;
+            }
+            
+
+            
+ </style>
+    </body> 
+</html>  
